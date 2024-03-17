@@ -1,0 +1,59 @@
+.schema-container {
+    padding-top: 10px;
+}
+.schema-group {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.circle-div {
+    /* border: 1px solid black; */
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    margin-right: 7px;
+    display: inline;
+}
+
+.green-dot {
+    background-color: green;
+}
+
+.red-dot {
+    background-color: brown;
+}
+
+.grey-dot {
+    background-color: gray;
+}
+
+.schema-input {
+    height: max-content;
+    width: 60%;
+    padding: 5px;
+    display: inline;
+}
+
+.remove-schema-button {
+    margin-left: 1rem;
+    border: none;
+    background-color: rgb(163, 192, 191);
+    padding: 5px;
+}
+
+.add-schema-button {
+    background: white;
+    border: none;
+    /* font-weight: 500;
+    font-size: 1.2rem; */
+    color:  rgb(41, 136, 136);
+    border-bottom: 1px solid rgb(41, 136, 136);
+    margin-left: 1.2rem;
+    margin-top: 10px;
+}
+
+.add-schema-button:hover {
+    cursor:pointer;
+}
+
+
